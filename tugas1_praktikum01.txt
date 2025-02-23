@@ -1,0 +1,24 @@
+1.jelaskan apa yang dimaksud dengan dokumen root?
+2.pada apache web server apakah dokumen root harus terletak dalam direktori C:\xampp\htdocs?jelaskan jawaban anda
+3.jelaskan apa yang di maksud dengan perintah git : init clone remote add commit push dan checout
+4.jelaskan perbedaan antara github dan gitlab
+5.apa bedanya variabel dengan variabel sysytem?
+6.apa persamaan variabel system dengan variabel constant?
+
+                    JAWABAN!!
+1 Root dokumen adalah folder tempat file situs web untuk nama domain disimpan. Karena cPanel memungkinkan beberapa nama domain (domain tambahan dan subdomain), Anda perlu memiliki folder unik untuk setiap domain.
+2.Tidak harus, tetapi secara default, pada Apache Web Server yang diinstal melalui XAMPP, document root memang berada di direktori
+  contohnya:C:\xampp\htdocs\ (untuk Windows)
+              /opt/lampp/htdocs/ (untuk Linux dengan XAMPP)
+3.init untuk menambah kan repositori baru
+  clone untuk menduplikasi (mengunduh) repository Git dari server atau remote repository ke komputer lokal.
+  remote untuk  menambahkan remote repository (misalnya GitHub) ke repository lokal.
+  commit  untuk menyimpan perubahan ke dalam repository lokal setelah menambahkan file dengan git add.
+  push untuk mengirim perubahan ke remote repository.
+  checout untuk mengembalikan kode ke versi tertentu.
+4. Perbedaan antara GitHub dan GitLab adalah:
+  github untuk kolaborasi karena open source dan platform populer dan intergrasi luas
+  gitlab jika butuh kontrol penuh dan ingin self-hosting dan membutuhkan CI/CD yang kuat tanpa layanan eksternal.
+5.Variabel biasa hanya berlaku di dalam program yang membuatnya.
+  Variabel sistem digunakan oleh sistem operasi untuk konfigurasi dan pengaturan lingkungan sistem.
+6.Kesamaan utama: Keduanya digunakan sebagai nilai referensi yang relatif tetap dan tersedia di seluruh lingkungan (sistem/program).
